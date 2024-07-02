@@ -1,0 +1,28 @@
+name: "🚀 Enhancement Request"
+description: Create a new ticket for an enhancement
+title: "🚀 - <title>"
+labels: [
+  "enhancement"
+]
+assignees: 
+  - mshunjan
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the enhancement you're interested in.
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      value: |
+          ## (What do engineers have to do step by step?)
+          - [ ] Verify the issue
+          - [ ] Solve the issue
+          - [ ] Test the solution
+      description: Describe the steps as a tasklist to achieve this solution.
+    validations: 
+      required: true
